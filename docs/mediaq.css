@@ -1,0 +1,244 @@
+@media(min-width: 767px) {
+    .carousel-inner {
+        height: 750px;
+    }
+    
+    .lastpro {
+        margin-top: -14em;
+        margin-left: 2.2em;
+    }
+
+    .lastpro img {
+        width: 470px !important;
+    }
+
+   
+    .rightcont{
+        margin-top: -11em;
+      }
+
+      .b3{
+        margin-left: -2em !important;
+      }
+    
+      
+      .midthirdcont {
+        padding-left: 7em;
+        padding-right: 7em;
+    }
+
+    .testimonial2 .second {
+        padding: 5em;
+        margin-left: 5em;
+    }
+    .mid2{
+        padding: 4em;
+    }
+    .leftcont{
+        padding: 4em;
+    }
+    .rightcont{
+        margin-bottom: 3em;
+    }
+    .testimonial2 .second {
+        padding: 5em;
+        margin-left: 5em;
+    }
+    .second img{
+        width: 80%;
+        margin-top: -1em;
+    }
+
+}
+
+
+
+
+@media(max-width:767px) {
+
+    .nav-header{
+        margin-top: 1em !important;
+    }
+    .mid-section {
+        padding: 2px;
+        margin-top: -4em;
+    }
+
+    .p1 {
+        width: 100%;
+    }
+
+    .mid-section .projects img {
+        height: 500px;
+        width: 100%;
+    }
+
+    .im2 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .im3 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
+    .im3 img {
+        width: 100% !important;
+    }
+
+
+    .camuted{
+        display: none;
+    }
+
+    .cabold{
+        margin-left: 1em;
+    }
+    .camuted{
+        margin-top: -10em;
+        width: 100%;
+        margin-left: 2em;
+
+    }
+
+    .carousel-caption{
+        width: 100%;
+        display: flex;
+        justify-items: center;
+        margin-left: -6em;
+        text-align: center;
+    }
+
+
+    /* sm media hidden clas prop */
+    .sm-hidden{
+        display: none !important;
+    }
+
+
+    .treat{
+        margin-top: 6em;
+        margin-left: 3em;
+    }
+
+
+    .leftcont{
+       padding: 4em;
+
+    }
+
+    .rightcont{
+        padding-bottom: 3em;
+        width: 100%;
+    }
+
+    .mid2{
+        height: auto;
+        padding-bottom: 3em;
+    }
+   
+    .caro-indicators{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .hydra{
+        margin-left: 2em;
+    }
+
+    .sm-mt-2{
+        margin-top: 2em;
+    }
+
+    .testimonial2 .second {
+        padding: 0px;
+        text-align: center;
+    }
+    .secondtitl{
+        padding-left: 3em;
+    }
+    .footer{
+        padding: 1em;
+    }
+    .smt-n1{
+        margin-top: -6em !important;
+    }
+    .projects .im4 {
+        margin-top: 20em !important;
+    }
+    .projects .im4 {
+
+        margin-top: -4em  !important;
+    }
+   
+}
+
+
+
+@media (max-width:991px) {
+
+ 
+    .mid2{
+        height: auto; 
+    }
+    .rightcont{
+        margin-top: 2em;
+    }
+    .leftcont{
+        padding-left: 1em;
+    }
+    .testimonial2 .second {
+        padding: 2em;
+        text-align: center;
+        margin-left: -0.4em;
+    }
+    .mid-section {
+        padding: 0px;
+        padding-left: 2em;
+    }
+    .projects .im1 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .projects .im2{
+        margin-left: -0.5em;
+    }
+    .projects .im2 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .projects .im3 img{
+        width: 80% !important;
+        height: auto;
+    }
+
+    .projects .im4 {
+        height: auto;
+        margin-top: -2em;
+        /* margin-top: -4em  !important; */
+    }
+    .lastpro{
+        margin-top: -20em !important;
+
+    }
+    .projects .im4 img{
+        width: 80% !important;
+        height: auto;
+
+    }
+
+    .md-text-center{
+        text-align: center;
+        margin-left: -2em;
+    }
+
+   
+    .carousel-inner {
+        height: 1000px;
+    }
+
+}

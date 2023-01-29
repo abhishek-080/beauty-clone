@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+
+
+    <title>Beauty Saloon</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mid.css">
+    <link rel="stylesheet" href="mediaq.css">
+
+</head>
+
+<body>
+
+    <button class="btn" onclick="topFunction()" id="scrollBtn">
+       <img src="images/up.png" alt="" height="50">
+
+    </button>
+
+    <!-- navbar -->
+    <div class="nav navbar   pe-5  pb-3 fixed-top">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header">
+
+            <div class="nav-title ms-4 ">
+                <a href="Home.html">
+
+                    <img src="images/logo1.png" alt="" height="50">
+                </a>
+            </div>
+        </div>
+        <div class="nav-btn ta-ms-n1 bg-secondary rounded mt-3 me-1 border ">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <div class="nav-links text-uppercase">
+            <a class="nav-link active me-3" href="Home.html">Home</a>
+
+            <div class="dropdown me-3 pag">
+                <button class="dropbtn text-uppercase">Pages</button>
+                <div class="dropdown-content ">
+                    <a href="#">About us</a>
+                    <a href="#">faq</a>
+                    <a href="#">appointment</a>
+                    <a href="#">our pricing</a>
+                    <a href="#">our team</a>
+
+                </div>
+            </div>
+
+            <div class="dropdown me-3 blog">
+                <button class="dropbtn text-uppercase">Blog</button>
+                <div class="dropdown-content ">
+                    <a href="#">Right sidebar</a>
+                    <a href="#">left sidebar</a>
+                    <a href="#">no sidebar </a>
+                </div>
+
+            </div>
+
+            <a class="nav-link me-3" href="#">Shop</a>
+
+            <a class="nav-link me-3" href="#">landing</a>
+
+            <div class="book-btn dropdown">
+                <button class="bookbtn text-uppercase">Book now</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- landing carousel -->
+
+    <div class="hero">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="images/fa.avif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption animate__animated animate__fadeInUp">
+                        <span class="camuted">Skin Routine</span> <br>
+                        <span class="fw-bold cabold">Young And Healthy Skin</span>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/fafa.avif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption p-0 animate__animated animate__fadeInUp">
+                        <span class="camuted">Acne Facials</span> <br>
+                        <span class="fw-bold cabold">Fully Hydrate Your Skins</span>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/1.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption p-0 animate__animated animate__fadeInUp">
+                        <span class="camuted">Acne Facials</span> <br>
+                        <span class="fw-bold cabold">For a Youthful Apperance</span>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                <!-- <span class="text-sky sm-hidden">PREVIOUS</span> -->
+
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <!-- <span class="text-sky sm-hidden">NEXT</span> -->
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                <span class="visually-hidden ">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="mid-section d-flex flex-wrap ">
+        <div class="projects col-lg-6 col-md-6">
+            <div class="p1">
+                <span class=" projtop text-uppercase"> Projects</span>
+
+                <div class="proh">Our Latest Quality
+                    Skin Care Products</div>
+
+                <div class="prode">
+                    Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantiume.
+                </div>
+
+
+                <div class="im1">
+                    <div class="p-img" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine"
+                        data-aos-once='true'>
+                        <img src="images/5.jpg" alt="">
+                    </div>
+
+                    <div class=" mutedsp text-uppercase">Massage</div>
+
+                    <div class="pich">Anti Aging Facial Data</div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="projects  col-lg-5 col-md-6">
+            <div class="im2">
+
+                <div class="" data-aos="fade-left" data-aos-offset="200" data-aos-once='true'>
+                    <img src="images/aa.jpg" alt="">
+                </div>
+
+                <div class=" mutedsp text-uppercase"> BEAUTY TREATMENTS
+                </div>
+
+                <div class="pich">Green Mud Face Mask</div>
+
+            </div>
+        </div>
+
+
+        <div class="projects col-lg-6 col-md-6">
+
+            <div class="im3">
+                <div class="p-img " data-aos="zoom-in" data-aos-once='true' data-aos-offset="200"
+                    data-aos-easing="ease-in-sine">
+                    <img src="images/cc.jpg" alt="">
+                </div>
+
+                <div class=" mutedsp text-uppercase">Facial</div>
+
+                <div class="pich">Fragrance Packaging</div>
+            </div>
+        </div>
+
+
+        <div class="projects  col-lg-5 col-md-6">
+            <div class="im4 lastpro">
+
+                <div class="" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-once='true'>
+                    <img src="images/dd.jpg" alt="">
+                </div>
+
+                <div class=" mutedsp text-uppercase"> video
+                </div>
+
+                <div class="pich pe-3">The Illuminating Spirituality
+                    Of Angelina Servantes</div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="mid2  d-flex flex-wrap">
+        <div class="leftcont col-lg-4 ">
+            <div class=" mutedsp"> ABOUT US</div>
+
+            <div class="pich">Check Out Our
+                Work & Services
+            </div>
+        </div>
+
+        <div class="rightcont col-lg-8 col-md-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner" data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-once='true'>
+                    <div class="carousel-item active">
+                        <img src="images/aa.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+
+                <div class="change-btns">
+                    <button class="btn  carousel-control-prev " type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"
+                        style=" background-color:rgb(105, 104, 104) ;">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="btn carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next"
+                        style=" background-color:rgb(105, 104, 104) ; padding: 5px; width: 50px; left: 0;">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="caro-indicators carousel-control-prev gap-5">
+                        <div class="p-0">
+                            <button class="btn" type="button" data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="0" class="active" aria-current="true">MASSAGE</button>
+
+                        </div>
+
+
+                        <div class="p-0">
+                            <button class="btn " type="button" data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="1" aria-label="Slide 2">UPPER FACE</button>
+
+                        </div>
+                        <div class="p-0 mb">
+                            <button class="btn" type="button" data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="2" aria-label="Slide 3">BODY</button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class=" d-flex flex-column justify-content-center mt-5 p-5 md-text-center">
+
+        <div class="pich fs-1 he">Our Treatments</div>
+
+        <div class="d-flex flex-wrap p-5 treat">
+
+            <div class="d-flex flex-column col-lg-3 col-md-6 text-center">
+                <div class="smt-n1">
+                    <img src="images/iw1.png" alt="" height="50">
+                </div>
+
+                <div class="te">
+                    <span class=""> Facial Treatments
+                    </span>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column col-lg-3 col-md-6 text-center">
+                <div class="sm-mt-2 md-mt-n">
+                    <img src="images/iwt2.png" alt="" height="50">
+                </div>
+                <div class="te">
+                    <span class=""> Healthy Products
+
+                    </span>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column col-lg-3 col-md-6 text-center">
+                <div class="sm-mt-2">
+                    <img src="images/iwt3.png" alt="" height="50">
+                </div>
+                <div class="te">
+                    <span class=""> Skin Tightening</span> <br>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column col-lg-3 col-md-6 text-center">
+                <div class="hydra sm-mt-2">
+                    <img src="images/iwt4.png" alt="" height="50">
+                </div>
+                <div class="te">
+                    <span class=""> Hydra Facial</span> <br>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- 3pic content -->
+
+    <div class="d-flex flex-wrap midthirdcont">
+
+
+        <div class="col-lg-4 content1 d-flex flex-column p-3 ">
+            <div class=" imgzoomhov " data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-offset="100"
+                data-aos-once='true'>
+                <img src="images/img15.jpg" alt="">
+            </div>
+
+            <div class=" text-center ">
+                <div class="text-mu text-uppercase mt-5">REMEDY</div>
+
+                <div class="text-big">
+                    The Mystical Glamour Of Diana’s Maroco Style Tip <br>
+                </div>
+
+                <div class="text-no">
+                    10/11/2021 - By Dr. Angelina Pester
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-4 content1 d-flex flex-column p-3">
+            <div class="imgzoomhov" data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-offset="200"
+                data-aos-once='true'>
+                <img src="images/img16.jpg" alt="">
+            </div>
+
+            <div class=" text-center ">
+
+                <div class="text-mu text-uppercase mt-5">REMEDY</div>
+
+                <div class="text-big">
+                    The Mystical Glamour Of Diana’s Maroco Style Tip <br>
+                </div>
+
+                <div class="text-no">
+                    10/11/2021 - By Dr. Angelina Pester
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="col-lg-4 content1 d-flex flex-column p-3">
+            <div class="imgzoomhov" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-offset="300"
+                data-aos-once='true'>
+                <img src="images/img17.jpg" alt="">
+            </div>
+
+            <div class=" text-center ">
+
+                <div class="text-mu text-uppercase mt-5">REMEDY</div>
+
+                <div class="text-big">
+                    The Mystical Glamour Of Diana’s Maroco Style Tip <br>
+                </div>
+
+                <div class="text-no">
+                    10/11/2021 - By Dr. Angelina Pester
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- antiaging -->
+
+    <div class="d-flex flex-wrap testimonial2">
+
+        <div class="title col-lg-6" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-once='true'>
+            <img src="images/Main-home.jpg" alt="">
+        </div>
+
+        <div class="col-lg-5 second col-sm-12 d-flex justify-content-center flex-column">
+
+            <div class="" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-once='true'>
+                <img src="images/dd.jpg" alt="">
+            </div>
+
+            <div class=" seconmu text-uppercase"> Beauty clinic
+            </div>
+
+            <div class="secondtitl">Antiaging Clinic In The Heart Of Menhattan</div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- docss -->
+    <div class="d-flex flex-column flex-wrap align-items-center midthirdcont m-3">
+
+        <div class=" medi text-center m-3">
+            Our Medical Team
+        </div>
+
+        <div class="d-flex flex-wrap">
+
+
+            <div class="col-lg-4 content1 d-flex flex-column p-3 imgzoomhov " data-aos="fade-up"
+                data-aos-easing="ease-in-sine" data-aos-offset="300" data-aos-once='true'>
+                <div>
+                    <img src="images/do1.jpg" alt="">
+                </div>
+
+                <div class=" text-center ">
+
+                    <div class="text-mu text-uppercase mt-5">REMEDY</div>
+                    <div class="text-big">
+                        Dr. Lilian Macario
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 content1 d-flex flex-column p-3 imgzoomhov" data-aos="fade-up"
+                data-aos-easing="ease-in-sine" data-aos-offset="300" data-aos-once='true'>
+                <div>
+                    <img src="images/o2.jpg" alt="">
+                </div>
+
+                <div class=" text-center ">
+
+                    <div class="text-mu text-uppercase mt-5">DERMATOLOGIST</div>
+
+                    <div class="text-big">
+                        Dr. Sarah Moris
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 content1 d-flex flex-column p-3 imgzoomhov" data-aos="fade-up"
+                data-aos-easing="ease-in-sine" data-aos-offset="300" data-aos-once='true'>
+                <div class="">
+                    <img src="images/do3.jpg" alt="">
+                </div>
+
+                <div class=" text-center ">
+
+                    <div class="text-mu text-uppercase mt-5"> ANESTHESIOLOGIST
+                    </div>
+
+                    <div class="text-big">
+                        Dr. Anna Andres
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- footer -->
+    <div class="footer ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-10 col-md-6">
+                    <div class="header ">
+                        <img src="images/logo1.png" alt="" height="100px">
+                    </div>
+                    <div class="mt-3 ">
+                        Practical and professional WP theme made for medical skincare centers and skin cosmetics labs.
+                    </div>
+                    <div class="mt-2 fs-4 ">
+                        0036 451 663 998
+                    </div>
+                    <div class="mt-2">
+                        dermaclear@example.com
+                    </div>
+                </div>
+
+                <div class="col-lg-3 mt-4 col-md-6">
+                    <span class="fs-4  font-serif"> Important Links</span><br>
+
+                    <div class="mt-3 quick">
+                        <div class="in">
+                            Botox
+                        </div>
+                        <div class="in">
+                            Laser Acne Treatments
+                        </div>
+                        <div class="in ">
+                            Mini Facelift
+                        </div>
+
+                        <div class="in ">
+                            Fillers
+                        </div>
+
+                        <div class="in ">
+                            Mesoglow
+                        </div>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 mt-4  col-md-6 col-sm-4 ">
+                    <span class=" fs-4 font-serif"> Contact Us</span><br>
+
+                    <div class="mt-3 quick">
+                        <div class="in d-flex flex-nowrap ">
+                            Grev Turegatan 35, Stockholm
+                        </div>
+                        <div class="in d-flex flex-nowrap ">
+                            dermaclear@example.com
+                        </div>
+                        <div class="in d-flex flex-nowrap ">
+                            0036 663 996 552
+                        </div>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-3 mt-4 col-md-6 col-sm-4 ">
+                    <span class="fs-4 font-serif"> Opening Hours</span><br>
+
+                    <div class="mt-3 quick">
+                        <div class="in d-flex flex-nowrap ">
+                            <div class="me-5">
+                                Workdays
+                            </div>
+                            <div>
+                                09:00 - 20.00
+                            </div>
+
+                        </div>
+                        <div class="in d-flex flex-nowrap ">
+                            <div class="me-5">
+                                Saturday
+                            </div>
+                            <div class="ps-2">
+                                09:00 - 20.00
+                            </div>
+                        </div>
+                        <div class="in d-flex flex-nowrap ">
+                            <div class="me-5">
+                                Sunday
+                            </div>
+                            <div class="ps-5 ms-3">
+                                Closed
+                            </div>
+                        </div>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="mt-5 mb-5">
+                <hr>
+            </div>
+
+        </div>
+
+        <div class="fs-5">
+            <div class="d-flex justify-content-center align-items-center text-center">
+
+                © 2021 Qode Interactive, All Rights Reserved
+                </dicv>
+            </div>
+
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+
+        <script>
+            let mybutton = document.getElementById("scrollBtn");
+
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+
+
+
+            AOS.init();
+        </script>
+
+
+
+</body>
+
+</html>
